@@ -2,7 +2,6 @@ h1 {
     text-align: left;
     font-family:'Courier New', Courier, monospace;
     font-weight: 1000;
-    color: black;
     font-size: 50px;
 }
 
@@ -28,10 +27,13 @@ li {
 
 img {
     border-radius: 20%;
+    background-color: aqua;
+    padding: 5px;
 }
 
 body {
-    background-image: url(Branco\ e\ Verde\ Simples\ Como\ Fazer\ uma\ Apresentação\ no\ Canva.png);
+    background-color: black;
+    color: white;
     background-size: 100%;
 }
 
@@ -51,4 +53,8 @@ body {
 
 h1 {
     text-align: center;
+}
+
+ul li:nth-child(even) {
+    color: aqua;
 }
