@@ -30,4 +30,6 @@ body {
 #my-photo {
     background-color: black;
     padding: 10px;
+    margin: 15px;
+    width: 150px;
 }
