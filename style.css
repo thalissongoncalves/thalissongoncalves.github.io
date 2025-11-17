@@ -26,3 +26,8 @@ body {
 .sobre {
     display: inline-flex;
 }
+
+#my-photo {
+    background-color: black;
+    padding: 10px;
+}
